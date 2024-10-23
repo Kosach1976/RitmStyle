@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(./font/proximanova_regular.ttf);
+}
+
+body {
+    font-family: "Proxima Nova";
+    background-color: #162831;
+    width: 1290px;
+    margin: auto;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "El Messiri", sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+
+}
+
+nav ul a {
+    color: #FFFFFF;
+    
+}
+
+header button {
+    background-color: #018ABE;
+    border-radius: 3px;
+    padding: 9px 15px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+header button:hover {
+    transform: filter 0.1s liner;
+    filter: brightness(110%);
+}
+
+main {
+    margin-top: 20px;
+}
+
+.first_screen {
+    border-radius: 10px;
+    background: url(./img/фон\ ьэн.jpeg);
+    background-size: cover;
+    text-align: center;
+    height: 600px;
+    padding-top: 136px;
+    background-color: #98C9DC80;
+    color: #FFFFFF;
+    background-position: 0 -140px;
+    
+}
+
+.first_screen h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+
+}
+
+.first_screen h2::before {
+    content: url(./img/Rectangle\ 3.png);
+    margin-right: 66px;
+}
+
+.first_screen h2::after {
+    content: url(./img/Rectangle\ 3.png);
+    display: inline-block;
+    transform: scale(-1, 1);
+    margin-left: 66px;
+}
+
+.first_screen h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 90px;
+
+}
